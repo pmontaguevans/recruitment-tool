@@ -1,0 +1,163 @@
+.container {
+  height: 80px;
+  padding: 0 30px;
+  /* box-shadow: 0 2px 4px -2px #929292; */
+  border-bottom: 2px solid #eee;
+}
+
+.container__nav {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container__nav--left {
+  display: flex;
+}
+
+.container__nav--logo {
+    width: 235px;
+}
+
+.container__nav--logo img {
+  width: 100%;
+  max-width: 110px;
+  height: auto;
+}
+
+.container__nav--links ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px;
+}
+
+.container__nav--links ul > li {
+  display: inline-block;
+}
+
+.container__nav--links ul > li a {
+  padding: 25px;
+  text-decoration: none;
+  color: #9c9c9c;
+  font-weight: 600;
+}
+
+.hasActiveStatus:focus {
+  border-bottom: 4px solid #0492f7;
+  color: #000 !important;
+}
+.container__nav--right {
+  display: flex;
+  align-items: center;
+  height: inherit;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.user__container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.user-container {
+  margin: 0 25px;
+}
+
+.user-container--name,
+.user-container--role {
+  font-size: 12px;
+}
+
+.user-container--name {
+  font-weight: 600;
+  color: #000;
+}
+
+.user-container--role {
+  color: #9c9c9c;
+}
+
+.user-container--avatar img {
+  max-width: 25px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.container__nav--right button {
+  border: 1px solid #9c9c9c;
+  padding: 15px 25px;
+  background: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  margin-left: 10px;
+}
+
+.modal {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: 1px solid #9c9c9c;
+}

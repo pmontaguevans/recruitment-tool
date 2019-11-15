@@ -1,0 +1,311 @@
+.assignment__container {
+  width: 100%;
+  height: auto;
+  padding: 25px 0 0 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.arrow--link:focus,
+.arrow--link:active,
+.arrow--link:link,
+.arrow--link:visited {
+  color: #000;
+}
+
+.arrow--icon {
+  border: 2px solid #eee;
+  border-radius: 50%;
+  display: flex;
+  padding: 5px;
+}
+
+.assignment__container--breadcrumbs {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.breadcrumbs {
+  margin-left: 30px;
+  display: flex;
+}
+
+.nav--link {
+  color: #9c9c9c;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.nav--link__arrow {
+  margin: 0 10px;
+}
+
+.nav—-project__name {
+  font-weight: 600;
+}
+
+.assignment__container .project__overview--chart {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.piechart {
+  position: relative;
+  display: flex;
+  width: 10%;
+}
+
+.percentage {
+  position: absolute;
+  left: 3px;
+  top: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-weight: 600;
+}
+
+.assignment--list {
+  list-style: none;
+}
+
+.assignment--list li {
+  display: inline-block;
+  width: 100%;
+}
+
+.assignment--list li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.assignment--list li a:hover {
+  text-decoration: underline;
+}
+
+.assignment--list li a h2 {
+  margin: 5px 0;
+}
+
+.layout {
+  display: flex;
+  padding-top: 45px;
+  justify-content: space-between;
+}
+
+.project__title {
+  margin-top: 0;
+}
+
+.project__overview--role {
+  display: flex;
+  justify-content: space-between;
+}
+
+.role--description p {
+  max-width: 270px;
+  font-size: 12px;
+}
+
+.role--heading {
+  color: #9c9c9c;
+}
+
+.project__overview--role ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.projcet__overview--role .span {
+  margin-right: 40px;
+}
+
+.main__layout-mid {
+  width: 100%;
+}
+
+.about__container {
+  margin-top: 50px;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about__focus--title {
+  font-size: 16px;
+  margin: 0;
+}
+
+/* personality traits */
+.about span {
+  color: #9c9c9c;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+.about__focus-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item__container {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.item__container > div {
+  display: flex;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.item__container > div > span:first-of-type {
+  margin-right: 20px;
+}
+
+.item__container > div span svg {
+  color: #2196f3;
+}
+
+.heading__container {
+  display: flex;
+  margin-top: 90px;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #eee;
+}
+
+.heading__container > .title {
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #000;
+  font-weight: 600;
+}
+
+/* .heading__container > .title:focus .active {
+    border-bottom: 3px solid #2196f3; 
+} */
+
+.heading__container .title:first-of-type {
+  margin-left: 0;
+}
+
+.heading__container > .title:focus {
+  margin-bottom: -2px;
+  border-bottom: 3px solid #2196f3;
+}
+
+/* Candidates Table */
+.rt-tr {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.rt-thead {
+  border-bottom: 1px solid #9c9c9c;
+}
+
+.rt-th:focus {
+  outline: none;
+  width: auto;
+}
+
+.rt-th:focus .rt-resizable-header-content {
+  width: 60px;
+  height: 100%;
+  background: #eee;
+}
+
+.checkbox__form {
+  display: flex;
+  padding: 0;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.checkbox__form--btn {
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.checkbox__container {
+  display: inline-flex;
+  align-items: center;
+}
+
+.role--assignees {
+  position: relative;
+  display: flex;
+}
+
+.role--assignees img {
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+.role--assignees img:first-of-type {
+  position: absolute;
+  top: 0;
+  left: 15px;
+}
+
+.role--assignees span {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+.role--points {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.role--points span {
+  font-size: 12px;
+}
+
+.role--points > span:first-of-type {
+  margin-right: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #9c9c9c;
+}
+
+.role--points > span:last-of-type {
+  padding: 7px;
+  margin: 2px 0;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.role--eval-count {
+  background: #0492f7;
+}
+.role--compl-count {
+    background: #000;
+}
+.role--noncompl-count {
+    background: #eee;
+}

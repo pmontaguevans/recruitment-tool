@@ -1,0 +1,94 @@
+.aside__container {
+  width: 20%;
+  max-width: 260px;
+  min-width: 260px;
+  height: calc(100vh - 80px);
+  margin: 0 45px 0 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+ul.department--list {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+ul.department--list li .department--link:focus > span,
+ul.department--list li .department--link:hover > span {
+  color: #2196f3;
+}
+
+.sidebar__hr {
+  margin: 20px 0;
+  width: 30px;
+  margin-left: 30px;
+}
+
+.department--list li {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px 0;
+  font-size: 0.8em;
+  cursor: pointer;
+}
+
+.department--list li .department--link {
+  width: inherit;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  color: #9c9c9c;
+  padding: 10px;
+  font-weight: 600;
+  padding-left: 30px;
+}
+
+.department--list li .department--link:focus {
+  background-color: #d7f1fb;
+}
+
+.department--list li .department--link:visited {
+  background-color: #d7f1fb;
+}
+
+.department--list li .department--link:hover,
+.department--list li .department--link:focus {
+  background-color: #d7f1fb;
+  color: #000;
+  border-radius: 0 8px 8px 0;
+}
+
+.department--btn {
+  /* display: flex;
+  justify-content: center; */
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.assignmentForm {
+  display: flex;
+  margin-left: 24px;
+  justify-content: center;
+}
+
+.department--btn button {
+  background: transparent;
+  font-size: 0.8em;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.department--btn button span:first-of-type {
+  display: flex;
+  align-items: center;
+  font-size: 1.7em;
+  margin: 0.5em;
+}
